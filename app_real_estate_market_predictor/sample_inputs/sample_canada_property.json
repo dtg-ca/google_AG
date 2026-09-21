@@ -1,0 +1,21 @@
+{
+  "country": "Canada",
+  "province_state": "Ontario",
+  "city": "Toronto",
+  "street": "142 Elmwood Ave",
+  "postal_code": "M2N 3M3",
+  "property_type": "Single Family Detached",
+  "bedrooms": 4,
+  "bathrooms": 3.5,
+  "sqft": 2650,
+  "lot_size": "50 x 130 ft",
+  "year_built": 2005,
+  "condition": "Excellent (Fully Renovated)",
+  "websites": [
+    "realtor.ca",
+    "zolo.ca",
+    "housesigma.com",
+    "redfin.ca"
+  ],
+  "time_horizon": "Past 3 Months"
+}

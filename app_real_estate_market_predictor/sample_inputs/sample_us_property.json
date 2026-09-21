@@ -1,0 +1,21 @@
+{
+  "country": "United States",
+  "province_state": "Texas",
+  "city": "Austin",
+  "street": "2408 South Congress Ave",
+  "postal_code": "78704",
+  "property_type": "Townhouse",
+  "bedrooms": 3,
+  "bathrooms": 2.5,
+  "sqft": 1850,
+  "lot_size": "2,800 sqft",
+  "year_built": 2018,
+  "condition": "Newly Built / Turnkey Luxury",
+  "websites": [
+    "zillow.com",
+    "redfin.com",
+    "realtor.com",
+    "homes.com"
+  ],
+  "time_horizon": "Past 3 Months"
+}

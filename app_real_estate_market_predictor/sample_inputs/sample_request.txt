@@ -1,0 +1,14 @@
+# Real Estate Market Analysis Request
+Country: Canada
+Province: Ontario
+City: Toronto
+Street: 88 Finch Ave E
+Postal Code: M2N 4R5
+Property Type: Condominium Apartment
+Bedrooms: 2
+Bathrooms: 2
+Square Feet: 920
+Year Built: 2016
+Condition: Good (Well Maintained)
+Websites: realtor.ca, zolo.ca, housesigma.com
+Time Horizon: Past 3 Months
