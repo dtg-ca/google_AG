@@ -1,0 +1,13 @@
+Address of Property:
+Street: 400 Colorado St
+City: Austin
+State/Province: Texas
+Postal Code: 78701
+Country: United States
+Property/Room Type: 1-Bedroom Apartment
+Layout: 1 Bedroom, 1 Bathroom
+Furnished: Unfurnished
+Parking: Garage Parking
+Pets: Pet Friendly (Dogs/Cats allowed)
+Utilities: Tenant pays electric and water
+Amenities: Rooftop pool, EV chargers, coworking lounge, in-unit washer/dryer

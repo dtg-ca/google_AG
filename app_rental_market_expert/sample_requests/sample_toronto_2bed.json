@@ -1,0 +1,15 @@
+{
+  "Country": "Canada",
+  "Province/State": "Ontario",
+  "City": "Toronto",
+  "Street": "180 University Avenue",
+  "Postal code": "M5H 0A2",
+  "Property/room type": "2-Bedroom Apartment",
+  "Bedrooms": 2,
+  "Bathrooms": 2,
+  "Furnished": "Unfurnished",
+  "Parking": "Dedicated / Included",
+  "Pet_friendly": true,
+  "Utilities_included": false,
+  "Amenities": ["In-suite laundry", "Balcony", "Fitness centre", "Concierge"]
+}

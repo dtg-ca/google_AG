@@ -1,0 +1,362 @@
+[
+  {
+    "id": "CASE-1791912756",
+    "timestamp": "2026-10-13 13:32:36",
+    "equipment_info": {
+      "category": "Automotive & Small Engines",
+      "subtype": "Exhaust & Emissions",
+      "make": "Hyundai",
+      "model": "2015 Sonata Sport Tech",
+      "location": "4107 Treetop Crescent Mississauga ON Canada",
+      "problem": "The service indicator lights up. As per the diagnostic tool, there is code P0453",
+      "skill_level": "Intermediate",
+      "tools": [
+        "Basic Screwdriver Set",
+        "Digital Multimeter",
+        "Socket / Ratchet Set"
+      ]
+    },
+    "dossier": {
+      "title": "Diagnosis and Repair Plan for Hyundai 2015 Sonata Sport Tech (P0453)",
+      "safety_hazard_level": "Low",
+      "safety_warnings": [
+        "Ensure the engine is completely cool before working near the fuel tank or EVAP system.",
+        "Work in a well-ventilated area; fuel vapors can be hazardous if the system is opened."
+      ],
+      "difficulty_rating": "2/5 - Intermediate",
+      "estimated_time": "45 - 90 minutes",
+      "estimated_cost_diy": "$60 - $120",
+      "estimated_cost_pro": "$285 - $490",
+      "diy_recommendation": "Recommended",
+      "pro_repair_estimate": {
+        "diagnostic_call_fee": "$80 - $125 (typically credited toward labor if work approved)",
+        "labor_hours": "1.0 - 2.0 hrs",
+        "labor_hourly_rate": "$100 - $150 / hr",
+        "labor_subtotal": "$150 - $280",
+        "estimated_parts_retail": "$40 - $85 (OEM components with typical 25% shop markup)",
+        "supplies_and_disposal": "$15 - $25",
+        "total_pro_estimate": "$285 - $490",
+        "diy_savings": "$240 - $440 (save ~85% doing it yourself)",
+        "when_to_hire_pro": "Hire a professional if you cannot safely lift the vehicle to access the fuel tank area, or if the wiring harness shows signs of rodent damage or corrosion that requires electrical repair beyond simple component swapping."
+      },
+      "root_cause_analysis": [
+        {
+          "cause": "Faulty Fuel Tank Pressure Sensor (FTPS)",
+          "probability": "High",
+          "explanation": "Code P0453 indicates an 'EVAP System Pressure Sensor/Switch High Input'. The sensor is likely sending a voltage signal above the normal operating range to the ECU.",
+          "test_method": "Use a multimeter to check the sensor signal wire voltage. If it reads 5V (or near battery voltage) regardless of tank pressure, the sensor is internally shorted."
+        },
+        {
+          "cause": "Wiring Harness Short",
+          "probability": "Medium",
+          "explanation": "A short to ground or power in the wiring harness leading to the FTPS can trigger the same high-input code.",
+          "test_method": "Inspect the wiring harness near the fuel tank for chafing, heat damage, or rodent chew marks."
+        }
+      ],
+      "required_tools": [
+        "Socket / Ratchet Set (10mm, 12mm)",
+        "Digital Multimeter",
+        "Floor Jack and Jack Stands",
+        "Flathead Screwdriver (for electrical connector tabs)"
+      ],
+      "likely_parts_needed": [
+        {
+          "part_name": "Fuel Tank Pressure Sensor (FTPS)",
+          "typical_cost": "$50 - $90",
+          "part_number_hint": "31435-C1000 or search '2015 Sonata Fuel Tank Pressure Sensor'",
+          "replacement_tip": "Always use OEM Hyundai/Kia parts for sensors to ensure correct voltage calibration with the ECU."
+        }
+      ],
+      "step_by_step_guide": [
+        {
+          "phase": "Phase 1: Disconnect & Prepare",
+          "instruction": "Park on a level surface, engage the parking brake, and disconnect the negative battery terminal to prevent electrical shorts.",
+          "pro_tip": "Run the fuel tank low before starting to reduce weight and risk of spills."
+        },
+        {
+          "phase": "Phase 2: Disassembly & Access",
+          "instruction": "Safely lift the rear of the vehicle using a jack and secure it on jack stands. Locate the FTPS on top of the fuel tank assembly.",
+          "pro_tip": "Use a flashlight to inspect the area for debris before removing the sensor to prevent dirt from falling into the tank."
+        },
+        {
+          "phase": "Phase 3: Component Inspection & Replacement",
+          "instruction": "Unplug the electrical connector and inspect the pins for corrosion. Remove the old sensor, install the new OEM sensor, and reconnect the harness.",
+          "pro_tip": "Apply a tiny amount of dielectric grease to the connector pins to prevent future moisture-related corrosion."
+        },
+        {
+          "phase": "Phase 4: Reassembly & Verification",
+          "instruction": "Lower the vehicle, reconnect the battery, and use your diagnostic tool to clear the P0453 code. Perform a drive cycle to ensure the monitor resets.",
+          "pro_tip": "If the code returns immediately, perform a continuity test on the signal wire back to the ECU."
+        }
+      ],
+      "community_wisdom": [
+        "P0453 is often triggered by a faulty sensor rather than a leak; check the sensor before performing a smoke test.",
+        "Avoid overfilling the gas tank, as liquid fuel entering the EVAP system can damage the sensor and charcoal canister."
+      ],
+      "local_sourcing_advice": "For parts, visit the local Autozone or similar auto parts retailers in Mississauga. For professional assistance, Hensall Auto Repair or Master Mechanic Matheson are highly rated in the Mississauga area for Hyundai diagnostics.",
+      "meta_source": "Gemini (gemini-3.1-flash-lite-preview) + Real-Time Forum Research"
+    },
+    "research_data": {
+      "guides": [
+        {
+          "type": "Technical Guide",
+          "title": "2015-2017 Hyundai Sonata Oil Life / Service Light Reset",
+          "url": "https://m.youtube.com/watch?v=wkYDNmMjglQ",
+          "snippet": "In this quick tutorial I show the step-by-step process to reset the oil life / service light using the steering wheel controls and dash menu.",
+          "source": "m.youtube.com"
+        },
+        {
+          "type": "Technical Guide",
+          "title": "How to reset the maintenance light on the 2015 Hyundai Sonata",
+          "url": "https://www.scegliauto.com/en/video/hyundai/tutorial/97618/",
+          "snippet": "If the service light on the instrument panel of your 2015 Hyundai Sonata appears even after having performed regular maintenance at an authorized center in the area, don't worry because you can eliminate it by following the following procedure. First of all, get into the car and turn on the ignition, then press the menu button several times in a row until you see the screen related to the ...",
+          "source": "scegliauto.com"
+        },
+        {
+          "type": "Technical Guide",
+          "title": "How to Reset Service Required Light - 2015 Hyundai Sonata",
+          "url": "https://m.youtube.com/watch?v=UDpM3KcjYgg",
+          "snippet": "How to reset service required light on a 2015 Hyundai Sonata. This technique will work on a Hyundai that has this system.",
+          "source": "m.youtube.com"
+        },
+        {
+          "type": "Technical Guide",
+          "title": "How to reset the service light on the 2015 Hyundai Sonata",
+          "url": "https://www.scegliauto.com/en/video/hyundai/tutorial/121356/",
+          "snippet": "If you want to reset the service light of your Hyundai Sonata (year 2015), you need to follow the procedure described in our new mini guide. First of all, get into the car and turn on the ignition without starting the engine, then locate the menu button on the right side of the steering wheel and press it.",
+          "source": "scegliauto.com"
+        }
+      ],
+      "forums": [
+        {
+          "type": "Community Forum",
+          "title": "Hyundai Sonata Troubleshooting - Ask: Sonata Service Intervals",
+          "url": "https://www.bing.com/aclick?ld=e8y040u3AfG-opxRZEnf6JlzVUCUy7VLSNh2_dMEddj4xRkcHx--k5nEmU3FHaKrRiCi_fQ1asKAFwnpLNP1z4RsO6r9jRj5y1uXn-vImWrl6s1iCMPHeTD_UppO2TSIsUKTPgCF8JEQ-XWYSsstYM43aiThmUIg0Q1wLDzs4dzS3Mq4vInBEJ4QnkhPLjqU-G43xv3A1TVIdfdQmXk0ypzWkTr18&u=aHR0cHMlM2ElMmYlMmZ3d3cuanVzdGFuc3dlci5jb20lMmZzaXAlMmZoeXVuZGFpLXZlaGljbGVzJTNmciUzZHBwYyU3Y21zJTdjNCU3Y0NhcnMlMjUyMC0lMjUyMEh5dW5kYWklMjUyMC0lMjUyMFVTQSUyNTIwLSUyNTIwU3RhdGUlMjUyMC0lMjUyMFBocmFzZSUyNTIwLSUyNTIwQmluZyUyNTIwLSUyNTIwU2VhcmNoJTI1MjAtJTI1MjBBbGwlMjUyMERldmljZSUyNTIwLSUyNTIwR2VuZXJpYyUyNTIwLSUyNTIwSGlnaCUyNTIwSW50ZW50JTdjSHl1bmRhaSUyNTIwU29uYXRhJTI1MjAtJTI1MjBTZXJ2aWNlJTI1MjAtJTI1MjBIaWdoJTI1MjBJbnRlbnQlMjUyMC0lMjUyMFBocmFzZSUyNTIwLSUyNTIwR2VuZXJpYyU3YyUyNkpQS1clM2RzZXJ2aWNlJTI1MjBoeXVuZGFpJTI1MjBzb25hdGElMjZKUERDJTNkUyUyNkpQU1QlM2QlMjZKUEFEJTNkJTI2SlBNVCUzZHAlMjZKUE5XJTNkbyUyNkpQQUYlM2R0eHQlMjZKUFJDJTNkMSUyNkpQQ0QlM2QlMjZKUE9QJTNkJTI2cG10JTNkYnAlMjZjbXBpZCUzZDMxNzE3NzM3JTI2YWdpZCUzZDI5NzE2NjE3MzUlMjZwY3JpZCUzZDc4MTM0MjQ3OTAxMDY3JTI2ZmlpZCUzZCUyNnRndGlkJTNka3dkLTMwOTg5NjA3NDM0JTNhbG9jLTMyJTI2ZHZjJTNkYyUyNm1zY2xraWQlM2Q1NGIwZTJjODIzOGQxMDM5ZGFjOTg4MDY0ODkyN2JlMg&rlid=54b0e2c8238d1039dac9880648927be2",
+          "snippet": "Ask for Hyundai Sonata Troubleshooting and a Verified Mechanic Answers You 1-on-1 Online. Resolve any Sonata Problems with Help from a Verified Mechanic in 1-on-1 Online Chat Now. No Waiting for Mechanics \u00b7 Luxury Car Experts \u00b7 Trusted by Millions \u00b7 Helped 30 Million Members",
+          "source": "bing.com"
+        },
+        {
+          "type": "Community Forum",
+          "title": "Fix It - Reddit",
+          "url": "https://www.reddit.com/r/fixit/",
+          "snippet": "After changing the plugs sound still remained, getting a new valve covers as it leaked oil to cylinder 3 (slightly) and cylinder 6 (heavily) the sound is mainly noticable on start up or acceleration under gear, but not in neutral.",
+          "source": "Reddit"
+        },
+        {
+          "type": "Community Forum",
+          "title": "Maintenance recommendations when your car hits 100,000 miles",
+          "url": "https://www.reddit.com/r/fixit/comments/o90ozp/maintenance_recommendations_when_your_car_hits/",
+          "snippet": "true I usually change my own oil, brakes, and fix other small problems on car when they happen (Toyota 2012 Corolla). What do you guys check for when your vehicle hits 100,000 miles?",
+          "source": "Reddit"
+        },
+        {
+          "type": "Community Forum",
+          "title": "Fender Damage : r/fixit - Reddit",
+          "url": "https://www.reddit.com/r/fixit/comments/9dyn8d/fender_damage/",
+          "snippet": "Here's what it comes down to. Do you want it to look like it never happened, or do you want it to look like you fixed it yourself? Body work is not rocket science. It's not quantum physics. It's not brain surgery. It IS an art. You can find a video on how to hammer it out yourself, but it's going to look like you hammered it out yourself.",
+          "source": "Reddit"
+        }
+      ],
+      "videos": [
+        {
+          "type": "Video Walkthrough",
+          "title": "How to Reset Service Required Light - 2015 Hyundai SonataHow to reset your service light on 2015 Hyundai SonataHuyndai Sonata Service Light Reset 2015- - YouTube2015 Hyundai Sonata Oil Change Light Reset Maintenance ...HOW TO RESET HYUNDAI SONATA MAINTENANCE LIGHTS - YouTubeHyundai Sonata Service Light Reset - How to Reset Hyundai ...How to reset service light maintenance 2012 2013 2014 2015 ...Ask a Hyundai Technician - Talk 1:1 and Fix it ASAPFix Support Hyundai - Ask Repair Questions",
+          "url": "https://www.youtube.com/watch?v=UDpM3KcjYgg",
+          "snippet": "Oct 18, 2016 \u00b7 How to reset service required light on a 2015 Hyundai Sonata. This technique will work on a Hyundai that has this system. How to reset your service light on 2015 Hyundai Sonata - YouTube Sep 25, 2019 \u00b7 Instructions taken from the service manual. If any of the pictures in this video are copyrighted please contact me and i will take them away immediately. Jun 29, 2024 \u00b7 How to turn off or reset the 2015 hyundai sonata oil change maintenance reminder message or light in dash using the buttons on the steering wheel. make sure ... Sep 14, 2019 \u00b7 Don't forget to give us a thumbs up and SUBSCRIBE to our channel. You can expect a new service video from us every week! Comment down below and let us know what video you'd like to see next. Dec 2, 2024 \u00b7 If your dashboard is showing a maintenance reminder, it\u2019s crucial to reset it after completing the required service to ensure your car\u2019s system stays up-to-date. Jul 1, 2016 \u00b7 How to reset service light maintenance 2012 2013 2014 2015 2016 Hyundai Santa Fe less then a minute Jason Phuong (Jason Random video) 712 subscribers Subscribe A Technician Will Answer You Now! Questions Answered Every 9 Seconds. Microwave Specialists \u00b7 Same Day Issue Diagnosis \u00b7 Highly Rated Experts \u00b7 Get Response in Minutes Services: Television Experts, Washer and Dryer Experts, Refrigerator Experts More: Car Mechanics Online Now. Get Reliable Repair & Parts Guidance in Minutes! Get Your Auto Repair Questions Answered in Minutes. Chat with a Mechanic Now. American Cars \u00b7 Live Experts \u00b7 Helped Over 8MM Worldwide \u00b7 1-on-1 Mechanic Chat Service catalog: Certified Mechanics, Quick Repair Advice, DIY Expert Guidance",
+          "source": "YouTube"
+        }
+      ],
+      "local_parts": [
+        {
+          "type": "Local Auto Parts",
+          "title": "Autozone, 1730 Dundas St E, Mississauga, ON L4X 1L8, CA ...",
+          "url": "https://www.mapquest.com/ca/ontario/autozone-455759386",
+          "snippet": "Get more information for Autozone in Mississauga, ON. See reviews, map, get the address, and find directions.",
+          "source": "mapquest.com"
+        },
+        {
+          "type": "Local Auto Parts",
+          "title": "O'Reilly Auto Parts Store Locator | Find a Store",
+          "url": "https://locations.oreillyauto.com/en-us/",
+          "snippet": "Shop your local O'Reilly location for the parts you need when you need them, along with tools, accessories, and more to get the job done right. Use the O'Reilly Auto Parts store locator to find nearby stores, hours, directions, and services. Search by city, state, or zip code.",
+          "source": "locations.oreillyauto.com"
+        },
+        {
+          "type": "Local Auto Parts",
+          "title": "Top 10 Best Autozone Auto Parts Near Mississauga, Ontario",
+          "url": "https://www.yelp.com/search?find_desc=Autozone+Auto+Parts&find_loc=Mississauga,+ON",
+          "snippet": "Reviews on Autozone Auto Parts in Mississauga, ON, Canada - search by hours, location, and more attributes.",
+          "source": "yelp.com"
+        },
+        {
+          "type": "Local Auto Parts",
+          "title": "TOP 10 BEST Autozone Parts Store in Mississauga, ON - Yelp",
+          "url": "https://www.yelp.ca/search?find_desc=Autozone+Parts+Store&find_loc=Mississauga,+ON",
+          "snippet": "Top 10 Best Autozone Parts Store Near Mississauga, Ontario (Updated 2026) Sort: Recommended",
+          "source": "yelp.ca"
+        }
+      ],
+      "pro_shops": [
+        {
+          "type": "Professional Repair Center",
+          "title": "TOP 10 BEST Auto Repair Shop in Mississauga, ON, Canada ...",
+          "url": "https://www.yelp.com/search?find_desc=auto+repair+shop&find_loc=Mississauga,+ON",
+          "snippet": "Spoke with a mechanic named Kaanan. really nice dude to deal with! Definitely will be going back there for all my needs. I have already recommended Hensall Auto Repair to my friends and told them to ask for Kaanan.\" See more reviews for this business.",
+          "source": "yelp.com"
+        },
+        {
+          "type": "Professional Repair Center",
+          "title": "THE BEST 10 AUTO REPAIR IN MISSISSAUGA, ON - Yelp",
+          "url": "https://www.yelp.ca/search?cflt=autorepair&find_loc=Mississauga,+ON",
+          "snippet": "Best Auto Repair in Mississauga, ON - Last Updated October 2026 - Master Mechanic Matheson, Shah Motors, Hensall Auto Repair, Johnston and Magwood Tires & Auto, T&T Auto, Napa Autopro - Four Wheels Auto Services, 6ix Autotech, D A Auto Repair, Genesis Auto Collision, TMS Auto Clinic",
+          "source": "yelp.ca"
+        },
+        {
+          "type": "Professional Repair Center",
+          "title": "TOP 10 BEST Garages & Mechanics in Mississauga, ON - Yelp",
+          "url": "https://www.yelp.ca/search?find_desc=Garages+&+Mechanics&find_loc=Mississauga,+ON",
+          "snippet": "Top 10 Best Garages & Mechanics Near Mississauga, Ontario (Updated 2026) Sort: Recommended",
+          "source": "yelp.ca"
+        },
+        {
+          "type": "Professional Repair Center",
+          "title": "Auto Repair Service in Mississauga, ON",
+          "url": "https://skylineautomotiveservice.ca/",
+          "snippet": "We are a full-service auto mechanic shop that can do it all. With a team of certified mechanics qualified to repair everything from brakes to electrical wiring and transmissions to onboard computers, we\u2019ve established ourselves as the number one local automotive center.",
+          "source": "skylineautomotiveservice.ca"
+        }
+      ],
+      "location_links": {
+        "google_maps": "https://www.google.com/maps/search/auto+parts+store+near+4107+Treetop+Crescent+Mississauga+ON+Canada",
+        "google_maps_pros": "https://www.google.com/maps/search/auto+repair+mechanic+near+4107+Treetop+Crescent+Mississauga+ON+Canada",
+        "yelp": "https://www.yelp.com/search?find_desc=auto+parts+store&find_loc=4107+Treetop+Crescent+Mississauga+ON+Canada",
+        "yelp_pros": "https://www.yelp.com/search?find_desc=auto+repair+mechanic&find_loc=4107+Treetop+Crescent+Mississauga+ON+Canada",
+        "home_depot": "https://www.homedepot.com/l/search/4107+Treetop+Crescent+Mississauga+ON+Canada",
+        "repairclinic": "https://www.repairclinic.com/",
+        "appliancepartspros": "https://www.appliancepartspros.com/",
+        "ifixit": "https://www.ifixit.com/Guide"
+      },
+      "all_sources": [
+        {
+          "type": "Technical Guide",
+          "title": "2015-2017 Hyundai Sonata Oil Life / Service Light Reset",
+          "url": "https://m.youtube.com/watch?v=wkYDNmMjglQ",
+          "snippet": "In this quick tutorial I show the step-by-step process to reset the oil life / service light using the steering wheel controls and dash menu.",
+          "source": "m.youtube.com"
+        },
+        {
+          "type": "Technical Guide",
+          "title": "How to reset the maintenance light on the 2015 Hyundai Sonata",
+          "url": "https://www.scegliauto.com/en/video/hyundai/tutorial/97618/",
+          "snippet": "If the service light on the instrument panel of your 2015 Hyundai Sonata appears even after having performed regular maintenance at an authorized center in the area, don't worry because you can eliminate it by following the following procedure. First of all, get into the car and turn on the ignition, then press the menu button several times in a row until you see the screen related to the ...",
+          "source": "scegliauto.com"
+        },
+        {
+          "type": "Technical Guide",
+          "title": "How to Reset Service Required Light - 2015 Hyundai Sonata",
+          "url": "https://m.youtube.com/watch?v=UDpM3KcjYgg",
+          "snippet": "How to reset service required light on a 2015 Hyundai Sonata. This technique will work on a Hyundai that has this system.",
+          "source": "m.youtube.com"
+        },
+        {
+          "type": "Technical Guide",
+          "title": "How to reset the service light on the 2015 Hyundai Sonata",
+          "url": "https://www.scegliauto.com/en/video/hyundai/tutorial/121356/",
+          "snippet": "If you want to reset the service light of your Hyundai Sonata (year 2015), you need to follow the procedure described in our new mini guide. First of all, get into the car and turn on the ignition without starting the engine, then locate the menu button on the right side of the steering wheel and press it.",
+          "source": "scegliauto.com"
+        },
+        {
+          "type": "Community Forum",
+          "title": "Hyundai Sonata Troubleshooting - Ask: Sonata Service Intervals",
+          "url": "https://www.bing.com/aclick?ld=e8y040u3AfG-opxRZEnf6JlzVUCUy7VLSNh2_dMEddj4xRkcHx--k5nEmU3FHaKrRiCi_fQ1asKAFwnpLNP1z4RsO6r9jRj5y1uXn-vImWrl6s1iCMPHeTD_UppO2TSIsUKTPgCF8JEQ-XWYSsstYM43aiThmUIg0Q1wLDzs4dzS3Mq4vInBEJ4QnkhPLjqU-G43xv3A1TVIdfdQmXk0ypzWkTr18&u=aHR0cHMlM2ElMmYlMmZ3d3cuanVzdGFuc3dlci5jb20lMmZzaXAlMmZoeXVuZGFpLXZlaGljbGVzJTNmciUzZHBwYyU3Y21zJTdjNCU3Y0NhcnMlMjUyMC0lMjUyMEh5dW5kYWklMjUyMC0lMjUyMFVTQSUyNTIwLSUyNTIwU3RhdGUlMjUyMC0lMjUyMFBocmFzZSUyNTIwLSUyNTIwQmluZyUyNTIwLSUyNTIwU2VhcmNoJTI1MjAtJTI1MjBBbGwlMjUyMERldmljZSUyNTIwLSUyNTIwR2VuZXJpYyUyNTIwLSUyNTIwSGlnaCUyNTIwSW50ZW50JTdjSHl1bmRhaSUyNTIwU29uYXRhJTI1MjAtJTI1MjBTZXJ2aWNlJTI1MjAtJTI1MjBIaWdoJTI1MjBJbnRlbnQlMjUyMC0lMjUyMFBocmFzZSUyNTIwLSUyNTIwR2VuZXJpYyU3YyUyNkpQS1clM2RzZXJ2aWNlJTI1MjBoeXVuZGFpJTI1MjBzb25hdGElMjZKUERDJTNkUyUyNkpQU1QlM2QlMjZKUEFEJTNkJTI2SlBNVCUzZHAlMjZKUE5XJTNkbyUyNkpQQUYlM2R0eHQlMjZKUFJDJTNkMSUyNkpQQ0QlM2QlMjZKUE9QJTNkJTI2cG10JTNkYnAlMjZjbXBpZCUzZDMxNzE3NzM3JTI2YWdpZCUzZDI5NzE2NjE3MzUlMjZwY3JpZCUzZDc4MTM0MjQ3OTAxMDY3JTI2ZmlpZCUzZCUyNnRndGlkJTNka3dkLTMwOTg5NjA3NDM0JTNhbG9jLTMyJTI2ZHZjJTNkYyUyNm1zY2xraWQlM2Q1NGIwZTJjODIzOGQxMDM5ZGFjOTg4MDY0ODkyN2JlMg&rlid=54b0e2c8238d1039dac9880648927be2",
+          "snippet": "Ask for Hyundai Sonata Troubleshooting and a Verified Mechanic Answers You 1-on-1 Online. Resolve any Sonata Problems with Help from a Verified Mechanic in 1-on-1 Online Chat Now. No Waiting for Mechanics \u00b7 Luxury Car Experts \u00b7 Trusted by Millions \u00b7 Helped 30 Million Members",
+          "source": "bing.com"
+        },
+        {
+          "type": "Community Forum",
+          "title": "Fix It - Reddit",
+          "url": "https://www.reddit.com/r/fixit/",
+          "snippet": "After changing the plugs sound still remained, getting a new valve covers as it leaked oil to cylinder 3 (slightly) and cylinder 6 (heavily) the sound is mainly noticable on start up or acceleration under gear, but not in neutral.",
+          "source": "Reddit"
+        },
+        {
+          "type": "Community Forum",
+          "title": "Maintenance recommendations when your car hits 100,000 miles",
+          "url": "https://www.reddit.com/r/fixit/comments/o90ozp/maintenance_recommendations_when_your_car_hits/",
+          "snippet": "true I usually change my own oil, brakes, and fix other small problems on car when they happen (Toyota 2012 Corolla). What do you guys check for when your vehicle hits 100,000 miles?",
+          "source": "Reddit"
+        },
+        {
+          "type": "Community Forum",
+          "title": "Fender Damage : r/fixit - Reddit",
+          "url": "https://www.reddit.com/r/fixit/comments/9dyn8d/fender_damage/",
+          "snippet": "Here's what it comes down to. Do you want it to look like it never happened, or do you want it to look like you fixed it yourself? Body work is not rocket science. It's not quantum physics. It's not brain surgery. It IS an art. You can find a video on how to hammer it out yourself, but it's going to look like you hammered it out yourself.",
+          "source": "Reddit"
+        },
+        {
+          "type": "Video Walkthrough",
+          "title": "How to Reset Service Required Light - 2015 Hyundai SonataHow to reset your service light on 2015 Hyundai SonataHuyndai Sonata Service Light Reset 2015- - YouTube2015 Hyundai Sonata Oil Change Light Reset Maintenance ...HOW TO RESET HYUNDAI SONATA MAINTENANCE LIGHTS - YouTubeHyundai Sonata Service Light Reset - How to Reset Hyundai ...How to reset service light maintenance 2012 2013 2014 2015 ...Ask a Hyundai Technician - Talk 1:1 and Fix it ASAPFix Support Hyundai - Ask Repair Questions",
+          "url": "https://www.youtube.com/watch?v=UDpM3KcjYgg",
+          "snippet": "Oct 18, 2016 \u00b7 How to reset service required light on a 2015 Hyundai Sonata. This technique will work on a Hyundai that has this system. How to reset your service light on 2015 Hyundai Sonata - YouTube Sep 25, 2019 \u00b7 Instructions taken from the service manual. If any of the pictures in this video are copyrighted please contact me and i will take them away immediately. Jun 29, 2024 \u00b7 How to turn off or reset the 2015 hyundai sonata oil change maintenance reminder message or light in dash using the buttons on the steering wheel. make sure ... Sep 14, 2019 \u00b7 Don't forget to give us a thumbs up and SUBSCRIBE to our channel. You can expect a new service video from us every week! Comment down below and let us know what video you'd like to see next. Dec 2, 2024 \u00b7 If your dashboard is showing a maintenance reminder, it\u2019s crucial to reset it after completing the required service to ensure your car\u2019s system stays up-to-date. Jul 1, 2016 \u00b7 How to reset service light maintenance 2012 2013 2014 2015 2016 Hyundai Santa Fe less then a minute Jason Phuong (Jason Random video) 712 subscribers Subscribe A Technician Will Answer You Now! Questions Answered Every 9 Seconds. Microwave Specialists \u00b7 Same Day Issue Diagnosis \u00b7 Highly Rated Experts \u00b7 Get Response in Minutes Services: Television Experts, Washer and Dryer Experts, Refrigerator Experts More: Car Mechanics Online Now. Get Reliable Repair & Parts Guidance in Minutes! Get Your Auto Repair Questions Answered in Minutes. Chat with a Mechanic Now. American Cars \u00b7 Live Experts \u00b7 Helped Over 8MM Worldwide \u00b7 1-on-1 Mechanic Chat Service catalog: Certified Mechanics, Quick Repair Advice, DIY Expert Guidance",
+          "source": "YouTube"
+        },
+        {
+          "type": "Local Auto Parts",
+          "title": "Autozone, 1730 Dundas St E, Mississauga, ON L4X 1L8, CA ...",
+          "url": "https://www.mapquest.com/ca/ontario/autozone-455759386",
+          "snippet": "Get more information for Autozone in Mississauga, ON. See reviews, map, get the address, and find directions.",
+          "source": "mapquest.com"
+        },
+        {
+          "type": "Local Auto Parts",
+          "title": "O'Reilly Auto Parts Store Locator | Find a Store",
+          "url": "https://locations.oreillyauto.com/en-us/",
+          "snippet": "Shop your local O'Reilly location for the parts you need when you need them, along with tools, accessories, and more to get the job done right. Use the O'Reilly Auto Parts store locator to find nearby stores, hours, directions, and services. Search by city, state, or zip code.",
+          "source": "locations.oreillyauto.com"
+        },
+        {
+          "type": "Local Auto Parts",
+          "title": "Top 10 Best Autozone Auto Parts Near Mississauga, Ontario",
+          "url": "https://www.yelp.com/search?find_desc=Autozone+Auto+Parts&find_loc=Mississauga,+ON",
+          "snippet": "Reviews on Autozone Auto Parts in Mississauga, ON, Canada - search by hours, location, and more attributes.",
+          "source": "yelp.com"
+        },
+        {
+          "type": "Local Auto Parts",
+          "title": "TOP 10 BEST Autozone Parts Store in Mississauga, ON - Yelp",
+          "url": "https://www.yelp.ca/search?find_desc=Autozone+Parts+Store&find_loc=Mississauga,+ON",
+          "snippet": "Top 10 Best Autozone Parts Store Near Mississauga, Ontario (Updated 2026) Sort: Recommended",
+          "source": "yelp.ca"
+        },
+        {
+          "type": "Professional Repair Center",
+          "title": "TOP 10 BEST Auto Repair Shop in Mississauga, ON, Canada ...",
+          "url": "https://www.yelp.com/search?find_desc=auto+repair+shop&find_loc=Mississauga,+ON",
+          "snippet": "Spoke with a mechanic named Kaanan. really nice dude to deal with! Definitely will be going back there for all my needs. I have already recommended Hensall Auto Repair to my friends and told them to ask for Kaanan.\" See more reviews for this business.",
+          "source": "yelp.com"
+        },
+        {
+          "type": "Professional Repair Center",
+          "title": "THE BEST 10 AUTO REPAIR IN MISSISSAUGA, ON - Yelp",
+          "url": "https://www.yelp.ca/search?cflt=autorepair&find_loc=Mississauga,+ON",
+          "snippet": "Best Auto Repair in Mississauga, ON - Last Updated October 2026 - Master Mechanic Matheson, Shah Motors, Hensall Auto Repair, Johnston and Magwood Tires & Auto, T&T Auto, Napa Autopro - Four Wheels Auto Services, 6ix Autotech, D A Auto Repair, Genesis Auto Collision, TMS Auto Clinic",
+          "source": "yelp.ca"
+        },
+        {
+          "type": "Professional Repair Center",
+          "title": "TOP 10 BEST Garages & Mechanics in Mississauga, ON - Yelp",
+          "url": "https://www.yelp.ca/search?find_desc=Garages+&+Mechanics&find_loc=Mississauga,+ON",
+          "snippet": "Top 10 Best Garages & Mechanics Near Mississauga, Ontario (Updated 2026) Sort: Recommended",
+          "source": "yelp.ca"
+        },
+        {
+          "type": "Professional Repair Center",
+          "title": "Auto Repair Service in Mississauga, ON",
+          "url": "https://skylineautomotiveservice.ca/",
+          "snippet": "We are a full-service auto mechanic shop that can do it all. With a team of certified mechanics qualified to repair everything from brakes to electrical wiring and transmissions to onboard computers, we\u2019ve established ourselves as the number one local automotive center.",
+          "source": "skylineautomotiveservice.ca"
+        }
+      ]
+    }
+  }
+]
